@@ -1,6 +1,6 @@
 # LeetCode Solutions Archive
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](/LICENSE)
 
 A **fully automated archive of LeetCode problems** with complete solutions, multiple approaches, and time/space complexities. This repository provides a **static website** for browsing, searching, and filtering problems using Vanilla JS, and it is designed to be **scalable and contributor-friendly**.
 
@@ -177,4 +177,4 @@ This script generates the `data/` folder used by the frontend:
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — see [LICENSE.md](LICENSE.md). 
+This project is licensed under the **MIT License** — see [LICENSE](/LICENSE). 
