@@ -4,8 +4,6 @@
 
 A **fully automated archive of LeetCode problems** with complete solutions, multiple approaches, and time/space complexities. This repository provides a **static website** for browsing, searching, and filtering problems using Vanilla JS, and it is designed to be **scalable and contributor-friendly**.
 
----
-
 ## 🌟 Project Overview
 
 **Purpose:**  
@@ -22,8 +20,6 @@ A **fully automated archive of LeetCode problems** with complete solutions, mult
 - Validation: ensure problem folders and metadata are correct using `validate.js`.  
 - Vanilla JS frontend: no framework needed, easy deployment.  
 - CI/CD ready: validation and deployment automated via GitHub Actions.  
-
----
 
 ## 📂 Repository Structure
 
@@ -82,8 +78,6 @@ leetcode-solutions-archive/
 └── .gitignore
 ```
 
----
-
 ## 🛠 Problem Folder Structure
 
 Each problem folder should include:
@@ -127,8 +121,6 @@ problems/{id}-{slug}/
 }
 ```
 
----
-
 ## 🔹 Automation Scripts
 
 ### `validate.js`
@@ -148,8 +140,6 @@ This script generates the `data/` folder used by the frontend:
   - `blind-75.json`  
   - `faang-100.json`  
 
----
-
 ## 🛠 Frontend Usage
 
 - **Homepage (`index.html`)**  
@@ -164,8 +154,6 @@ This script generates the `data/` folder used by the frontend:
 - **Filters & Search**  
   Implemented with Vanilla JS using JSON files inside the `data/` folder.  
 
----
-
 ## 🚀 Workflow
 
 1. **Add or update a problem** in the `problems/` folder.  
@@ -179,8 +167,6 @@ This script generates the `data/` folder used by the frontend:
    ```   
 4. **Commit and push** → CI/CD will validate and deploy automatically.
 
----
-
 ## 🤝 Contributing
 
 - Fork the repository  
@@ -189,10 +175,6 @@ This script generates the `data/` folder used by the frontend:
 - Open a pull request  
 > Ensure consistency in metadata, folder structure, and code organization  
 
----
-
 ## 📄 License
 
 This project is licensed under the **MIT License** — see [LICENSE.md](LICENSE.md). 
-
----
